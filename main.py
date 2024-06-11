@@ -3,7 +3,7 @@ import csv
 
 # Parametry żądania
 city = "Cracow"
-api_key = "805bac77baa6a0265fdd0421cfd134b3"  # Uzupełnij własnym kluczem API
+api_key = "my_api"  # Uzupełnij własnym kluczem API
 api_url = f"http://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api_key}&units=metric"
 
 # Wykonanie żądania GET do API
